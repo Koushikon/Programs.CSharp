@@ -1,0 +1,10 @@
+desktop.ini
+
+# Prevent build files
+bin/
+obj/
+
+# Exclude Folders
+02.Basic_errors/
+
+# Exclude Files
