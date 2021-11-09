@@ -2,7 +2,7 @@
 
 /*************
  * Number Spelling Recurrsion Program
- * Time Complexity: 2^n
+ * Time Complexity: O(n)
  * Space Complexity: O(n)
 *************/
 
