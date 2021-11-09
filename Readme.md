@@ -2,7 +2,7 @@
 
 Here almost every CSharp 🐱‍🏍 files are of my Practice files. I learn all these from different Website, Apps, Online learning courses and from my Teacher.
 
-I'm 🎃 Working on Few `C#` and with `.Net 5` versions.
+I'm 🎃 Working on Few `C#` with `.Net 5` & `.Net 6` versions.
 
 ![C# Banner](./_Files/CSharp_banner.png)
 
