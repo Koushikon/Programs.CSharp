@@ -2,7 +2,7 @@
 
 /*************
  * Number Spelling Recurrsion Program
- * Time Complexity: O(n)
+ * Time Complexity: O(number of digits), i.e. O(log n)
  * Space Complexity: O(n)
 *************/
 

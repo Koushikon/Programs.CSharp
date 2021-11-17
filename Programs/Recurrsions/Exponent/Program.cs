@@ -1,5 +1,11 @@
 ﻿using System;
 
+/*************
+ * Exponent Recurrsion Program
+ * Time Complexity: O(n), i.e. powwer
+ * Space Complexity: O(n)
+*************/
+
 namespace Exponent
 {
     class Program
