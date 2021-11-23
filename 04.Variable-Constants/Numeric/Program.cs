@@ -12,6 +12,9 @@ int number4 = 0b00001111;   // Write in Binary from || 0 or 1
 
 Console.WriteLine( "{0}\t{1}\t{2}\t{3}", number1, number2, number3, number4);
 
+// nint num1o1 = 1;
+// System.IntPtr num1o2 = 0x1;
+
 // 2Bytes - Short integer
 // short short_var {-32768};
 // short int short_int {455};
