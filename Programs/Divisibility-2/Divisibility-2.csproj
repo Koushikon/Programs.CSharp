@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_2_D_Array</RootNamespace>
+    <RootNamespace>Divisibility_2</RootNamespace>
   </PropertyGroup>
 
 </Project>

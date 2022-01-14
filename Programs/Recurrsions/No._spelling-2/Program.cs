@@ -6,7 +6,7 @@
  * Space Complexity: O(n)
 *************/
 
-namespace Exponent
+namespace No_spelling_2
 {
     class Program
     {

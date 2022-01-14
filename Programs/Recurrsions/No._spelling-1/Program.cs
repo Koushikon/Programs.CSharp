@@ -6,7 +6,7 @@
  * Space Complexity: O(n)
 *************/
 
-namespace Factorial
+namespace No_spelling_1
 {
     class Program
     {
