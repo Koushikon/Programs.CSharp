@@ -3,6 +3,7 @@ desktop.ini
 # Prevent build files
 bin/
 obj/
+.vscode/
 
 # Exclude Folders
 02.Basic_errors/
