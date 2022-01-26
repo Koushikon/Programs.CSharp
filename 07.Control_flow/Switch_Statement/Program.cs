@@ -15,12 +15,12 @@ namespace Switch_Statement
             season_num = Math.Ceiling(season_num / 2) - 1;
             Season season = (Season)season_num;
             Console.WriteLine("Your Season number is: {0}", season_num);
+            // Or, pass this
+            // Season season = Season.Late_Autumn;
 
             /**
              * * Pre-defined values
              */
-            // Season season = Season.Late_Autumn;
-
             switch (season)
             {
                 case Season.Summer:
@@ -44,6 +44,20 @@ namespace Switch_Statement
                     Console.WriteLine("Do not know what to do.");
                     break;
             }
+
+            /**
+             * * Shorthand Switch in C#
+             */
+            var result = season switch
+            {
+                Season.Summer => "Its Summer Vacation time.",
+                Season.Monsoon => "Heavy rains are expected.",
+                Season.Autumn or Season.Late_Autumn => "Durga Puja time.",
+                Season.Winter or Season.Spring => "Its Cold out there.\nAlso Spring time.",
+                _ => "Do not know what to do."
+            };
+
+            Console.WriteLine(result);
         }
     }
 }
