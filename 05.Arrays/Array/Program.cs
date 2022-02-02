@@ -5,24 +5,27 @@
 *************/
 
 // 1_D Array
-int[] test_case = new int[5];
+int[] t_case = new int[5];
 
-Console.WriteLine("\nAll Test_cases input:");
-test_case[0] = int.Parse(Console.ReadLine());
-test_case[1] = int.Parse(Console.ReadLine());
-test_case[2] = int.Parse(Console.ReadLine());
-test_case[3] = int.Parse(Console.ReadLine());
-test_case[4] = int.Parse(Console.ReadLine());
+Console.WriteLine("\nAll Test input:");
+t_case[0] = int.Parse(Console.ReadLine());
+t_case[1] = int.Parse(Console.ReadLine());
+t_case[2] = int.Parse(Console.ReadLine());
+t_case[3] = int.Parse(Console.ReadLine());
+t_case[4] = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"The first Test_case: {test_case[0]} \nThe first Test_case: {test_case[1]}\nThe first Test_case: {test_case[2]}\nThe first Test_case: {test_case[3]}\nThe first Test_case: {test_case[4]}");
+Console.WriteLine($"The 1st Test: {t_case[0]} \nThe 2nd Test: {t_case[1]}\nThe 3rd Test: {t_case[2]}\nThe 4th Test: {t_case[3]}\nThe 5th Test: {t_case[4]}");
 
-// 2_D Array
+// Boolean Array in C#
+var flags = new bool[4] { true, false, true, false };
+Console.WriteLine(string.Join(' ', flags));
+
+// 2_D Integer Array
 int[,] a = new int[3, 3] {
     {1, 2, 3},
     {4, 5, 6},
     {7, 8, 9}
 };
-
 
 Console.Write("Enter the value for a Row 2 Column 2 is:");
 a[1, 1] = int.Parse(Console.ReadLine());
