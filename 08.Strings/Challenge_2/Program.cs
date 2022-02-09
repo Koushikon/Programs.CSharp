@@ -1,5 +1,9 @@
 ﻿using System;
 
+/**
+ * * Question: Write a program and ask the user to enter a few numbers separated by a hyphen. If the user simply presses Enter, without supplying an input, exit immediately; otherwise, check to see if there are duplicates. If so, display "Duplicate" on the console.
+ */
+
 bool FindDuplicate(string[] word)
 {
     var n_word = Array.ConvertAll(word, s => Convert.ToInt32(s));
