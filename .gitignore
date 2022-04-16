@@ -3,6 +3,7 @@ desktop.ini
 # Prevent build files
 bin/
 obj/
+.vs/
 .vscode/
 
 # Exclude Folders
