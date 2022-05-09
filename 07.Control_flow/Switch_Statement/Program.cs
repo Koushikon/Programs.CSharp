@@ -7,8 +7,8 @@ namespace Switch_Statement
         public static void Main()
         {
             /**
-             * * Taking User input 
-             */
+            * * Taking User input 
+            */
             Console.Write("Enter a month number: ");
             double season_num = double.Parse(Console.ReadLine());
 
@@ -46,8 +46,8 @@ namespace Switch_Statement
             }
 
             /**
-             * * Shorthand Switch in C#
-             */
+            * * Shorthand Switch in C#
+            */
             var result = season switch
             {
                 Season.Summer => "Its Summer Vacation time.",
@@ -58,6 +58,9 @@ namespace Switch_Statement
             };
 
             Console.WriteLine(result);
+
+
+
         }
     }
 }
