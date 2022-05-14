@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 /**
  * * Asking for 5 Unique input
+ * * Show them in Reverse Order
  */
 
 static int take_input(bool staus)

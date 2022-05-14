@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 
 namespace Plus_One
 {
@@ -6,15 +8,17 @@ namespace Plus_One
     {
         public int[] PlusOne(int[] digits)
         {
-            var res = new int[digits.Length + 1];
-            for (int i = digits.Length - 1; i >= 0; i--)
+            var num = Convert.ToInt32(string.Join("", digits)) + 1;
+            // var strArray = num.ToString().Split("");
+            // Console.WriteLine(num);
+            // var res = Array.ConvertAll<string, int>(strArray, int.Parse);
+
+            StringBuilder sb1 = new StringBuilder();
+            while (num < 0)
             {
-                digits[i] += 1;
-                if (digits[i] > 9)
-                    continue;
-                else
-                    break;
+                sb1 = (num % 10).ToString();
             }
+            Console.WriteLine(sb1);
             return digits;
         }
     }
@@ -23,7 +27,7 @@ namespace Plus_One
     {
         static void Main(string[] args)
         {
-            var arr = new int[1] { 9 };
+            var arr = new int[3] { 9, 1, 3 };
             Solution s1 = new Solution();
             var result = s1.PlusOne(arr);
             Console.WriteLine(string.Join(' ', result));

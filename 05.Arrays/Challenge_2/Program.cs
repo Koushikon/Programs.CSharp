@@ -1,5 +1,9 @@
 ﻿using System;
 
+/**
+ * * Reverse The Array Elements
+ */
+
 string userInput = Console.ReadLine();
 char[] words = new char[userInput.Length];
 
