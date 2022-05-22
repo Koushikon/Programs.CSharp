@@ -81,10 +81,11 @@ namespace Challenge_1
             var BigList = new Stacx();
             // BigList.Pop();
             BigList.Push(5);
-            BigList.Push(null);
+            // BigList.Push(null);
             BigList.Push("Nine");
             BigList.Push('K');
             BigList.Push(true);
+            BigList.Pop();
             // BigList.Clear();
             BigList.ShowAll();
 
