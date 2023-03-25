@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 
+# Exclude files
 desktop.ini
 
 # Prevent build files
