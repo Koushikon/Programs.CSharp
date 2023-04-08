@@ -4,6 +4,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>KSLibrary</PackageId>
+    <Authors>Koushik</Authors>
+    <Description>Demo Class Library Nuget Package</Description>
+    <Product>KSLibrary</Product>
+    <Title>KS Library</Title>
   </PropertyGroup>
 
 </Project>
