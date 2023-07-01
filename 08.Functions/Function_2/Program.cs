@@ -6,7 +6,7 @@
 
 namespace Function_2
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -15,6 +15,13 @@ namespace Function_2
 
             Console.WriteLine($"Greeting in Hindi {join("Namaste")}");
             Console.WriteLine($"Greeting in Hindi an ex. {join("Namaste", "Asutosh")}");
+
+            Program.Print("Hello");
+            Program.Print('A');
+            Program.Print(14);
+            Program.Print(14.78);
+            Program.Print(false);
+            Program.Print(null);
         }
 
         // We if didn't provide any argument when calling
@@ -25,6 +32,11 @@ namespace Function_2
                 return a;
             else
                 return a + ' ' + b;
+        }
+
+        private static void Print(object data)
+        {
+            Console.WriteLine(data);
         }
     }
 }
