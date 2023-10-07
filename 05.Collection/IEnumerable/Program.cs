@@ -13,6 +13,14 @@ namespace IEnumerable
 
             Console.WriteLine("\nIterate through a List and Show the Data:");
             Display_As_List();
+
+            var mySequence = Enumerable.Range(0, 12);
+
+            foreach (int num in mySequence)
+            {
+                Console.Write($"{num} ");
+            }
+            Console.WriteLine();
         }
 
         private static void Display_As_Ineumerable()
@@ -34,7 +42,7 @@ namespace IEnumerable
         {
             var names = new List<string> {
             "sam", "alexia", "simon", "sumanth", "tony", "sam", "amr", "mark", "drew"
-        };
+            };
 
             List<string> Result = names.Where(w => w.Length > 5).ToList();
             names[0] = "benjamin";

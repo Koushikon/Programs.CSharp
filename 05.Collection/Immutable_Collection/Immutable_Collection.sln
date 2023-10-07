@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutable_Collection", "Immutable_Collection.csproj", "{5F214C31-353B-43D6-A033-7A5190211849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F214C31-353B-43D6-A033-7A5190211849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F214C31-353B-43D6-A033-7A5190211849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F214C31-353B-43D6-A033-7A5190211849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F214C31-353B-43D6-A033-7A5190211849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {294B504A-12C5-4495-8D2D-0E33E9DB98D2}
+	EndGlobalSection
+EndGlobal

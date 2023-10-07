@@ -12,7 +12,9 @@
 			"**/bin/": true,
 			"**/obj": true,
 		},
+		"notebook.markup.fontSize": 16,
 		"files.defaultLanguage": "${activeEditorLanguage}",
 		"editor.formatOnSave": true,
+		"dotnet.defaultSolution": "disable",
 	}
 }

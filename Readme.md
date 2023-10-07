@@ -14,6 +14,7 @@ I'm 🎃 Working on Few `C#` with `.Net 5`, `.Net 6`, `.Net 7` versions.
 
 ### File `global.json` for .Net:
 `global.json`: Used for Set Root SDK Version with this file in Sub-Directory we cannnot Run Apps with Other SDK version. `global.json` Contain:
+
 ```JSON
 {
   "sdk": {
