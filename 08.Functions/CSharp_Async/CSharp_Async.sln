@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Matrix\Matrix.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixTest", "MatrixTest\MatrixTest.csproj", "{A0CE9040-5B78-4D72-89F2-5506238DFBFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBreakfast", "AsyncBreakfast\AsyncBreakfast.csproj", "{7DE61354-0A26-4E14-9803-99A1BFD3928E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncBreakfast", "AsyncBreakfast\AsyncBreakfast.csproj", "{7DE61354-0A26-4E14-9803-99A1BFD3928E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMethods", "AsyncMethods\AsyncMethods.csproj", "{BE3A61E5-30DF-49CC-9926-EA082957C584}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7DE61354-0A26-4E14-9803-99A1BFD3928E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DE61354-0A26-4E14-9803-99A1BFD3928E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DE61354-0A26-4E14-9803-99A1BFD3928E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3A61E5-30DF-49CC-9926-EA082957C584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3A61E5-30DF-49CC-9926-EA082957C584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3A61E5-30DF-49CC-9926-EA082957C584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3A61E5-30DF-49CC-9926-EA082957C584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
