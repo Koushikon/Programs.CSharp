@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Thread_1/Thread_1.csproj" />
+  <Project Path="Thread_2/Thread_2.csproj" />
+</Solution>
